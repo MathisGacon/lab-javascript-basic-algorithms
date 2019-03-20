@@ -29,6 +29,16 @@ console.log(c.toUpperCase());
 var d = hacker2.split('').reverse().join('');
 console.log(d);
 
+if (hacker1.localeCompare(hacker2) < 0 )
+console.log("The driver's name goes first");
+else if (hacker2.localeCompare(hacker1) > 0)
+console.log("Yo, the navigator goes first definitely");
+else console.log("What?! You both got the same name?");
+
+
+
+
+
 
 var palindrom = prompt("Writte something")
 /*function checkPalindrom(palindrom) {
@@ -51,5 +61,5 @@ var paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fin
 
 "Mauris commodo lectus elit, vitae tristique ipsum commodo at. In eget convallis dolor. Nunc nec ipsum sit amet sapien ultricies semper. Proin mollis dictum imperdiet. Proin sapien lectus, rhoncus in nisi sit amet, tristique egestas ex. Vestibulum dolor massa, venenatis vitae mauris sed, suscipit bibendum ligula. Ut quis velit tincidunt, finibus metus sit amet, pretium eros. Sed sodales neque nulla. Mauris tempus tempor magna, non consectetur sem laoreet eu. Sed efficitur faucibus turpis id elementum. Curabitur ante risus, fringilla ut maximus quis, ultricies eget turpis. Mauris in nibh ac velit consequat ultrices in tincidunt quam. Sed pellentesque iaculis diam aliquam dignissim. Nullam ut libero quis dolor aliquet ullamcorper ut ac elit."
 
-console.log("The number of words in those 3 paragraphs is "+paragraph.length)
-console.log(paragraph.search("et"))
+console.log("The number of words in those 3 paragraphs is "+paragraph.length);
+console.log(paragraph.search("et"));
